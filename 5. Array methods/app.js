@@ -11,10 +11,10 @@ const users = [
 
 //  *array.map - crea un nuevo array no cambia el array original sino que devuelve un nuevo array
 // usando map para traer los elementos de un arreglo
-/*
+
 const newArray = numbers.map( (number) => number);
 console.log(newArray);
-*/
+
 
 // usando map para multiplicar cada elemento del array por 2
 /*
@@ -122,9 +122,12 @@ console.log(meses);
 */
 
 // *join - devuelve un string con todos los elementos separados por un caracter
+/*
 const arrayMeses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 const cadenaMeses = arrayMeses.join("-");
 console.log(cadenaMeses);
+*/
+
 
 
 
