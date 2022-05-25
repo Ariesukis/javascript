@@ -11,7 +11,7 @@
     
     <h1 id="tituloWeb" class="estiloTitulo">Hola mundo</h1>
 
-    <div class="container" id="parrafos">
+    <div id="parrafos">
         <p class="text-p">texto 1</p>
         <p class="text-p">texto 2</p>
         <p class="text-p">texto 3</p>
@@ -32,6 +32,31 @@
             <span id="text">Mexico</span>
         </li>
     </template>
+
+
+    <div class="container">
+        <div
+          id="padre"
+          class="border border-primary border-5 py-5 m-3"
+          data-div="divPadre"
+        >
+            Lorem, ipsum.
+            <div
+              id="hijo"
+              class="border border-secondary border-5 py-5 m-3"
+              data-div="divHijo"
+            >
+                Lorem, ipsum.
+                <div
+                  id="nieto"
+                  class="border border-danger border-5 py-5 m-3"
+                  data-div="divNieto"
+                >
+                    Lorem, ipsum.
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     

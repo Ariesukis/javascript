@@ -137,10 +137,19 @@ lista.appendChild(fragment);
 */
 
 
+// ! Delegacion de eventos
 
+document.addEventListener('click', (e) => {
+    //console.log(e.target.id);
+    //console.log(e.target.className);
+    //console.log(e.target.tagName);
 
+    //e.target.id === 'padre' ? console.log(' padre') : console.log('otro');
 
+    //e.target.matches('#hijo') ? console.log('hijo') : console.log('otro');
 
+    e.target.dataset.div === 'divNieto' ? console.log('nieto') : console.log('otro');
+})
 
 
 
